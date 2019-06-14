@@ -70,7 +70,6 @@ body,html{
 
 #middle{
 	background-color: #C0C0C0;
-	max-height:275px;
 	border-radius:15px;
 }
 #bottom-div h3{
@@ -79,21 +78,42 @@ body,html{
 	font-family: Ubuntu;
 
 }
-#skill_row_1 i{
+#skill_row i{
 	margin-top: 5px;
 	color:white;
 }
-#skill_row_1 h4{
+#skill_row h4{
 	color:white;
 	font-size: 1.2em;
 	margin-top: 10px;
+	font-family: Ubuntu;
 }
-#skill_row_2 i{
-	margin-top: 10px;
+#project_title{
+	color:white;
+	font-family: Roboto;
+	font-size: 3.5em;
+	margin-bottom: 0px;
+}
+#portfolio_pic{
+	height:150px;
+	width:300px;
+	margin-top:20px; 
+}
+#proj_title{
+	font-family: Ubuntu;
+	margin-top:10px;
+	color: blue;
+	text-decoration: underline;
+}
+#proj_title:hover{
 	color:white;
 }
-#skill_row_2 h4{
+#proj_descrip{
+	color: white;
+}
+#proj_tag:hover{
+	text-decoration:none;
+}
+#proj_library{
 	color:white;
-	font-size: 1.2em;
-	margin-top: 10px;
 }
