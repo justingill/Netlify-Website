@@ -72,6 +72,15 @@ body,html{
 	background-color: #C0C0C0;
 	border-radius:15px;
 }
+#middle h3{
+	color:#000000 !important;
+}
+#education_info{
+	font-size: 1.1em;
+}
+#education_info span{
+	font-weight: bold;
+}
 #bottom-div h3{
 	color: #FFFFFF;
 	text-decoration: underline;
@@ -79,7 +88,7 @@ body,html{
 
 }
 #skill_row i{
-	margin-top: 5px;
+	margin-top: 25px;
 	color:white;
 }
 #skill_row h4{
