@@ -24,6 +24,11 @@ body,html{
 .nav-item a:hover{
 	color:#453556 !important;
 }
+
+#linked_icons:hover{
+	text-decoration:none;
+}
+
 .jumbotron.jumbotron-fluid{
 	background-image: url(../img/water.jpg);
 	-webkit-background-size: cover;
@@ -34,10 +39,12 @@ body,html{
 	min-height: 400px;
 	margin:0px;
 }
+
 .jumbotron.jumbotron-fluid i{
 	padding:2px 10px;
 	color:white;
 }
+
 .jumbotron.jumbotron-fluid img{
 	display:block;
     margin-left:auto;
@@ -50,6 +57,7 @@ body,html{
 	font-family: Roboto;
 	text-decoration: underline;
 }
+
 .jumbotron.jumbotron-fluid h2{
 	font-size: 2.1em;
 	margin-top: 10px;
@@ -75,12 +83,15 @@ body,html{
 #middle h3{
 	color:#000000 !important;
 }
+
 #education_info{
 	font-size: 1.1em;
 }
+
 #education_info span{
 	font-weight: bold;
 }
+
 #bottom-div h3{
 	color: #FFFFFF;
 	text-decoration: underline;
@@ -97,6 +108,7 @@ body,html{
 	margin-top: 10px;
 	font-family: Ubuntu;
 }
+
 #project_title{
 	color:white;
 	font-family: Roboto;
@@ -115,6 +127,7 @@ body,html{
 	text-decoration: underline;
 	font-size: 1.5em;
 }
+
 #proj_title:hover{
 	color:white;
 }
@@ -122,9 +135,11 @@ body,html{
 	color: white;
 	font-size: 1.1em;
 }
+
 #proj_tag:hover{
 	text-decoration:none;
 }
+
 #proj_library{
 	color:white;
 	font-size: 1.1em;
