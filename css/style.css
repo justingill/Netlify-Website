@@ -1,6 +1,10 @@
 body,html{
 	margin:0px;
 	padding:0px;
+	
+}
+body {
+    background-color: #000; 
 }
 .navbar-dark span.navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -148,3 +152,20 @@ body,html{
 	font-size: 1.1em;
 
 }
+
+#quote-container {
+    display: flex;              /* Enables flexbox layout */
+    justify-content: center;    /* Centers items horizontally */
+    align-items: center;        /* Centers items vertically */
+    text-align: center;         /* Centers text inside the container */
+    min-height: 100px;          /* Adjust as needed for vertical spacing */
+    padding: 20px;              /* Add some padding around the container */    /* Optional: Background color for better contrast */
+}
+
+#inspiring-quote {
+    color: #FFFFFF;             /* White text color */
+    font-size: 1.5em;           /* Larger font size */
+    font-family: Arial, sans-serif; /* Optional: Choose a suitable font family */
+    margin: 0;                  /* Removes default margins */
+}
+
