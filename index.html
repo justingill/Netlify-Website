@@ -1,138 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React App</title>
   <img style="display: none;" src="./src/assets/water.jpg" />
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142974484-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-142974484-1');
-	</script>
-	<title>Justin's Portfolio | Welcome</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="src/index.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-
-
-
 </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-dark sticky-top" id="navbar-black">
-		<a class="navbar-brand" href="#"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-			<span class="navbar-toggler-icon"></span>
-  		</button>
-
-  		<!-- Navbar links -->
-		<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="./index.html">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="./portfolio.html">Portfolio</a>
-				</li>
-	    	</ul>
-	    </div>
-	</nav>
-
-	<div class='jumbotron jumbotron-fluid'>
-		<img src="src/assets/circle.png" class = "img-fluid" width="150">
-		<div class="container-fluid text-center">
-			<h1>Justin F. Gill</h1>
-			<a href="https://github.com/justingill/" id="linked_icons" onclick="gtag('event', 'view',{'event_category':'social_media','event_label':'github'});">
-				<i class="fab fa-github-square fa-3x"></i>
-			</a>
-			<a href="https://www.linkedin.com/in/justin-gill-299a63167/" id="linked_icons" onclick="gtag('event', 'view',{'event_category':'social_media','event_label':'linkedin'});">
-				<i class="fab fa-linkedin fa-3x"></i>
-			</a>
-			<div class="container-fluid">
-				<p id="inspiring-quote" class="quote-container"></p>
-				<script src="src/quotes.js"></script>
-			</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container-fluid text-center" id="bottom-div">
-		<div class="row">
-			<div class="col-md-4">
-				<h3>About Me</h3>
-				<div class="lead" style="color:white; font-size:1.1em !important; padding-bottom: 40px !important;">
-					I’m a software engineer with a knack for backend development, API integration, and handling data in all its forms. Over the past five years, I’ve dived into various tech challenges and loved every minute of it. My journey has taken me through everything from fine-tuning systems and speeding up queries to building cool tools that help businesses thrive.
-
-					My work has ranged from creating efficient backend solutions to collaborating with diverse teams—from analytics to sales—to discuss and implement tech strategies. I’ve even had the chance to be the Sales Engineer in over 50 Proof of Concept calls, helping clients understand how Machine Learning models can fit into their tech stack and make impactful changes.
-					
-					When I'm not coding, I’m probably reading up on the latest in tech or exploring new tools. I’m always on the lookout for ways to grow and contribute, whether it's through optimizing code or finding new solutions to complex problems. Currently, I'm focused on bringing my skills to new challenges and helping organizations make smarter, data-driven decisions.
-				</div>
-			</div>
-			<div class="col-md-4" id="middle">
-				<h3>Education</h3>
-				<a href="https://www.unr.edu/" id="linked_icons">
-					<img src="src/assets/unr.png" style="height:120px; width:150px; padding-top: 10px;">
-				</a>
-				<div class="lead text-left" style="padding-top: 10px;" id="education_info"><span>Degree Earned:</span> B.S. Statistics minor Comp Sci. & Engineering</div>
-				<div class="lead text-left"  id="education_info"><span>Graduated:</span> August 2018</div>
-				<div class="lead text-left" id="education_info"><span>GPA:</span> 3.68</div>
-				<div class="lead text-left"  id="education_info"><span>Major Coursework:</span> Real Analysis, Linear Regression, Statistical Theory, Probability Theory, Mathematical Modeling, Numerical Methods, 	Deterministic Operations Research, Linear Algebra, Differential Equations</div>
-				<div class="lead text-left"  id="education_info" style="padding-bottom: 40px !important;"><span>Minor Coursework:</span> Operating Systems, Data Structures, Prog. Language Implementations, Embedded System, Computer Organization</div>
-			</div>
-			<div class="col-md-4">
-				<h3>Skills</h3>
-				<div class="row" id="skill_row">
-					<div class="col-4">
-						<i class="fab fa-python fa-3x"></i>
-						<h4>Python</h4>
-					</div>
-					<div class="col-4">
-						<i class="fab fa-cuttlefish fa-3x"></i>
-						<h4>C++</h4>
-					</div>
-					<div class="col-4">
-						<i class="fas fa-database fa-3x"></i>
-						<h4>SQL</h4>
-					</div>
-				</div>
-				<div class="row" id="skill_row">
-					<div class="col-4">
-						<i class="far fa-chart-bar fa-3x"></i>
-						<h4>Tableau</h4>
-					</div>
-					<div class="col-4">
-						<i class="fas fa-file-excel fa-3x"></i>
-						<h4>Excel</h4>
-					</div>
-					<div class="col-4">
-						<i class="fas fa-file-powerpoint fa-3x"></i>
-						<h4>PowerPoint</h4>
-					</div>
-				</div>
-				<div class="row" id="skill_row">
-					<div class="col-4">
-						<i class="fab fa-html5 fa-3x"></i>
-						<h4>HTML</h4>
-					</div>
-					<div class="col-4">
-						<i class="fab fa-css3-alt fa-3x"></i>
-						<h4>CSS</h4>
-					</div>
-					<div class="col-4">
-						<i class="fab fa-bimobject fa-3x"></i>
-						<h4 style="padding-bottom: 40px !important;">Bootstrap</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <!-- This div is where your React app will be rendered -->
+  <div id="root"></div>
+  <!-- Link to your JavaScript bundle -->
+  <script type="module" src="src/main.jsx"></script>
 </body>
 </html>

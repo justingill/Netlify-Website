@@ -1,7 +1,7 @@
 const quotes = [
     "'The best way to predict the future is to invent it'. – Alan Kay",
     "'Your time is limited, don't waste it living someone else's life.' – Steve Jobs",
-    "'Success is not the key to happiness. Happiness is the key to success.' If you love what you are doing, you will be successful. – Albert Schweitzer",
+    "'Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.' – Albert Schweitzer",
     "'The only way to do great work is to love what you do.' – Steve Jobs",
     "'The future belongs to those who believe in the beauty of their dreams.' – Eleanor Roosevelt",
     "'In the middle of difficulty lies opportunity.' – Albert Einstein",
@@ -16,9 +16,5 @@ function getRandomQuote() {
     return quotes[randomIndex];
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    const quoteElement = document.getElementById('inspiring-quote');
-    if (quoteElement) {
-        quoteElement.textContent = getRandomQuote();
-    }
-});
+export default getRandomQuote;
+
