@@ -1,0 +1,97 @@
+@import './fonts.css';
+
+#project_title{
+	color:white;
+	font-family: Roboto;
+	font-size: 2em;
+	margin-bottom: 0px;
+}
+#portfolio_pic{
+	height:150px;
+	width:300px;
+	margin-top:20px; 
+}
+#proj_title{
+	font-family: Ubuntu;
+	margin-top:10px;
+	color: blue;
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
+#proj_title:hover{
+	color:white;
+}
+#proj_descrip{
+	color: white;
+	font-size: 1.1em;
+}
+
+#proj_tag:hover{
+	text-decoration:none;
+}
+
+#proj_library{
+	color:white;
+	font-size: 1.1em;
+
+}
+
+#bottom-div {
+    padding: 20px 0;
+}
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    margin-bottom: 0;
+}
+#project-title {
+    font-weight: bold;
+    color:white;
+    font-family: Roboto;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+#project-container {
+    margin: 20px;
+}
+#project-container img {
+    max-width: 100%;
+    height: auto;
+}
+#project-card figure {
+    margin: 0; 
+    flex: 1;
+}
+#project-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+#project-card .lead {
+    font-size: 1rem;
+    color: #ffffff;
+}
+#project-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Needed for absolute positioning of child */
+    height: 100%;
+}
+#project-card #proj_library {
+    position: absolute; /* Positions this element absolutely within the card */
+    bottom: 15px; /* Adjust this if necessary to align with padding */
+    left: 15px; /* Aligns with card's padding */
+    font-weight: bold;
+    color: #fff; /* White text color */
+}
+.row {
+    margin-bottom: 20px;
+}
+#bottom-div {
+    padding: 25px;
+}
