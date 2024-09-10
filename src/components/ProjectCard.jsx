@@ -12,7 +12,7 @@ function ProjectCard(props) {
             </a>
             <Container className="lead" id="proj_descrip">{props.project_description}</Container>
             <br />
-            <Container className="lead" id="proj_library"><span>Libraries Used:</span> {props.libraries}</Container>
+            <Container className="lead" id="proj_library"><span>Libraries:</span> {props.libraries}</Container>
         </figure>
       </Container>
     </Col>

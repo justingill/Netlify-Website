@@ -59,7 +59,7 @@ function Projects() {
         event_label: "City-Cycle Project"
     }];
   return (
-    <Container fluid className="text-center" id="bottom-div">
+    <Container fluid className="text-center" id="bottom-div-projects">
         <Container id="project-container" />
         <Container id="project-title">Projects</Container>
             <Row>

@@ -36,10 +36,6 @@
 	font-size: 1.1em;
 
 }
-
-#bottom-div {
-    padding: 20px 0;
-}
 .jumbotron {
     background-color: #f8f9fa;
     padding: 2rem 1rem;
@@ -92,6 +88,17 @@
 .row {
     margin-bottom: 20px;
 }
-#bottom-div {
-    padding: 25px;
+#bottom-div-projects{
+	margin-top: 0px;
+	padding-top:0px;
+	min-height:275px;
+	background-color: #000000;
+    padding: 30px;
+}
+
+#bottom-div h3{
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-family: Ubuntu;
+	padding-top: 10px;
 }
