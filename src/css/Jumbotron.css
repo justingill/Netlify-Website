@@ -1,6 +1,6 @@
 
 #top-container{
-	background-image: url(../assets/water.jpg);
+	background-image: url(/water.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
