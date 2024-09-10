@@ -45,30 +45,30 @@ function BottomDiv(){
                     </Row>
                     <Row id="skill_row">
                         <Col>
-                            <i class="far fa-chart-bar fa-3x"></i>
-                            <h4>Tableau</h4>
+                            <i class="fab fa-react fa-3x"></i>
+                            <h4>React</h4>
                         </Col>
                         <Col>
-                            <i class="fas fa-file-excel fa-3x"></i>
-                            <h4>Excel</h4>
+                            <i class="fab fa-js fa-3x"></i>
+                            <h4>JavaScript</h4>
                         </Col>
-                        <Col>
-                            <i class="fas fa-file-powerpoint fa-3x"></i>
-                            <h4>PowerPoint</h4>
-                        </Col>
-                    </Row>
-                    <Row id="skill_row">
                         <Col>
                             <i class="fab fa-html5 fa-3x"></i>
                             <h4>HTML</h4>
                         </Col>
+                    </Row>
+                    <Row id="skill_row">
                         <Col>
                             <i class="fab fa-css3-alt fa-3x"></i>
                             <h4>CSS</h4>
                         </Col>
                         <Col>
                             <i class="fab fa-bimobject fa-3x"></i>
-                            <h4 id ="last_h4">Bootstrap</h4>
+                            <h4>Bootstrap</h4>
+                        </Col>
+                        <Col>
+                            <i class="fas fa-file-excel fa-3x"></i>
+                            <h4 id ="last_h4">Excel</h4>
                         </Col>
                     </Row>
                 </Col>
