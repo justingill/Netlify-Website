@@ -84,6 +84,7 @@
     left: 15px; /* Aligns with card's padding */
     font-weight: bold;
     color: #fff; /* White text color */
+    padding-right: 50px;
 }
 .row {
     margin-bottom: 20px;
