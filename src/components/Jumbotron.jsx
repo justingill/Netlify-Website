@@ -5,7 +5,7 @@ function Jumbotron() {
   return (
     <Container fluid id="top-container">
       <Container fluid className="text-center" id="centered-container">
-        <img src="src/assets/circle.png" class="img-fluid" width="150"></img>
+        <img src="/circle.png" class="img-fluid" width="150"></img>
         <h1>Justin F. Gill</h1>
         <a
           href="https://github.com/justingill/Resume-Portfolio/"

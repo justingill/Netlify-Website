@@ -19,7 +19,7 @@ function BottomDiv(){
                 <Col md={4} id="middle">
                     <h3>Education</h3>
                     <a href="https://www.unr.edu/" id="linked_icons">
-					<img src="src/assets/unr.png" id="unr-pic"></img>
+					<img src="/unr.png" id="unr-pic"></img>
                     </a>
                     <Container className="text-start"  id="education_info_first"><span>Degree Earned:</span> B.S. Statistics minor Comp Sci. & Engineering</Container>
                     <Container className="text-start"  id="education_info"><span>Graduated:</span> August 2018</Container>
