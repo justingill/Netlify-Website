@@ -1,5 +1,5 @@
-import Container from 'react-bootstrap/Container';
-import getRandomQuote from './Quotes';
+import Container from "react-bootstrap/Container";
+import getRandomQuote from "./Quotes";
 
 function Jumbotron() {
   return (
